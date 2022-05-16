@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number </title>
+</head>
+
+<body>
+    <script>
+
+        //number
+        console.info("Number : ");
+
+        const input = "12345";
+        const number = Number(input);
+
+        console.info(number);
+
+        //number static properties
+        console.info("Number Static Properties : ");
+        console.info(Number.MIN_VALUE);
+        console.info(Number.MAX_VALUE);
+
+        console.info(Number("salah"));
+
+        console.info(Number.MIN_VALUE);
+        console.info(Number.MAX_VALUE);
+        console.info(Number.MIN_SAFE_INTEGER);
+        console.info(Number.MAX_SAFE_INTEGER);
+        console.info(Number.NaN);
+
+        //number static method
+        console.info("Number Static Method : ");
+        const data = Number('12345');
+
+        const data2 = Number("eko");
+
+        console.info(Number.isInteger(data));
+        console.info(Number.isNaN(data));
+        console.info(Number.isInteger(data2));
+        console.info(Number.isNaN(data2));
+
+        //number instance method
+        console.info("Number Instance Method : ");
+        const value = Number(12345);
+
+        console.info(value.toString(2));
+        console.info(value.toLocaleString("id-ID"));
+
+        const value2 = Number("12345");
+        console.info(value2.toString(3));
+        console.info(value2.toLocaleString("id-ID"));
+        console.info(value2.toLocaleString("en-US"));
+
+    </script>
+</body>
+
+</html>
