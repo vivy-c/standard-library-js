@@ -1,0 +1,14 @@
+{
+    "firstName": "Vivy",
+    "middleName": "Cahyani",
+    "lastName": "Ball",
+    "address": {
+      "country": "Indonesia",
+      "city": "Subang"
+    },
+    "hobbies": [
+      "Coding",
+      "Game"
+    ]
+  }
+  
